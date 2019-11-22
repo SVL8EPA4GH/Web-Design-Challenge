@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>My Home Page</title>
+  <style>
+  img {
+    /* 
+      Center a block element in the middle of its enclosing tag.
+      When you use the "auto" rule on both left and right margins, 
+      your browser will do the math necessary to center a block element.
+      */
+    margin-left: auto;
+    margin-right: auto;
+    /* Block display (more on this later) */
+    display: block;
+  }
+  
+  .rotateimg90 {
+    -webkit-transform:rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+  .rotateimg180 {
+    -webkit-transform:rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+</style>
+
+</head>
+
+<body>
+<H1>Welcome to my website!</H1>
+
+<figure>
+    <img class="rotateimg90" src="images/cat.jpg" width="400" height="400" alt="cat">
+    <figcaption>This is me, a cat</figcaption>
+</figure>
+
+<p>
+    Besides catching mice, I am also doing a lot of other things!
+</p>
+
+<ul>
+    <li><strong><a href="landing_index.html">Take a look what I have got for you.</a></strong></li>
+</ul>
+
+
+</body>
+
+</html>
